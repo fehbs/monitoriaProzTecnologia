@@ -1,0 +1,114 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background: #b3ababb4;
+width: 100%;
+min-height: 100vh;
+font-family: 'roboto', sans-serif;
+}
+
+.navbar {
+display: flex;  /*Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.*/
+align-items: center;  /*Alinha os itens ao centro.*/
+justify-content: space-between;  /*Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.*/
+background: #000;
+height: 50px;
+}
+
+.navbar img {
+max-width: 100%;
+width: 90px;
+margin-left: 20px;
+}
+
+.join-box {
+margin: 0 25px;
+display: flex;
+align-items: center;
+}
+
+p {
+color: #fff;
+text-transform: uppercase;
+}
+
+.btn {
+border: 1px solid #fff;
+border-radius: 2px;
+background: none;
+color: #fff;
+height: 35px;
+padding: 0 10px;
+margin-left: 10px;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.join-btn {
+background: #dd0e15;
+border-color: #dd0e15;
+}
+
+.btn:hover {
+opacity: 0.8;
+}
+
+/*Responsive*/
+@media (max-width: 598px) {
+
+.navbar {
+max-width: 100%;
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+.join-box {
+max-width: 100%;
+margin: 19px;
+gap: 10px;
+
+}
+.btn, .join-btn {
+margin-left: 4px;
+max-width: 100%;
+width: 40%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
