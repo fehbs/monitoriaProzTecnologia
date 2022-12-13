@@ -4,6 +4,13 @@ padding: 0;
 box-sizing: border-box;
 }
 
+:root {
+  --colornode7: #fff;
+  --amazonBackground: #232F3E;
+  --amazonCartNav: #f08804;
+  --amazonSearchIconNav: #febd69;
+}
+
 body {
 background: #b3ababb4;
 width: 100%;
@@ -21,7 +28,7 @@ height: 50px;
 
 .navbar img {
 max-width: 100%;
-width: 90px;
+width: 112px;
 margin-left: 20px;
 }
 
