@@ -1,5 +1,5 @@
 
-function changeColor() {
+function changeColor1() {
     const body = document.querySelector('#body');
     body.style.backgroundColor = 'black';
     const title = document.querySelector('#h1');
